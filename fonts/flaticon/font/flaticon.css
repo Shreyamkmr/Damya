@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 11/02/2019 11:47
+  	Creation date: 17/07/2019 12:38
   	*/
 
 @font-face {
@@ -25,20 +25,14 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
 }
 
-.flaticon-mexican-taco:before { content: "\f100"; }
-.flaticon-house:before { content: "\f101"; }
-.flaticon-guitar:before { content: "\f102"; }
-.flaticon-gym:before { content: "\f103"; }
-.flaticon-shopping-bag:before { content: "\f104"; }
-.flaticon-cocktail:before { content: "\f105"; }
+.flaticon-shipped:before { content: "\f100"; }
+.flaticon-box:before { content: "\f101"; }
+.flaticon-award:before { content: "\f102"; }
+.flaticon-customer-service:before { content: "\f103"; }
+.flaticon-salad:before { content: "\f104"; }
+.flaticon-diet:before { content: "\f105"; }
