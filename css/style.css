@@ -10043,7 +10043,7 @@ textarea.form-control {
 }
 
 #img2 {
-  background-image: url(../images/Fruit_Jelly_2.jpg);
+  background-image: url('../images/Fruit_Jelly_2.jpg');
 }
 /*changes will reflect in mobile only*/
 @media (max-width: 600px) {
