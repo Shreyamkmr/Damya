@@ -10039,19 +10039,19 @@ textarea.form-control {
 }
 
 #img1 {
-  background-image: url('../images/Jelly_Sweets.webp');
+  background-image: url('../images/Jelly_Sweets.jpg');
 }
 
 #img2 {
-  background-image: url(../images/Fruit_Jelly_2.webp);
+  background-image: url(../images/Fruit_Jelly_2.jpg);
 }
 /*changes will reflect in mobile only*/
 @media (max-width: 600px) {
       #img1 {
-          background-image: url('../images/Jelly_Sweets_2.webp');
+          background-image: url('../images/Jelly_Sweets_2.jpg');
       }
       #img2 {
-          background-image: url('../images/Fruit_Jelly_4.webp');
+          background-image: url('../images/Fruit_Jelly_4.jpg');
       }
 }
 @media (max-width: 600px) {
