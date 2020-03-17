@@ -8248,7 +8248,7 @@ h1, h2, h3, h4, h5,
     .hero-wrap .slider-text .bread {
       font-weight: 800;
       color: #fff;
-      font-size: 30px;
+      font-size: 25px;
       font-family: "Poppins", Arial, sans-serif;
       letter-spacing: 3px;
       text-transform: uppercase; }
@@ -8384,8 +8384,8 @@ h1, h2, h3, h4, h5,
         bottom: 0;
         left: 0;
         right: 0;
-        /*background: white;*/
-        opacity: .2; }
+        opacity: .2;
+        overflow: scroll; }
       .owl-carousel.home-slider .slider-item .slider-text {
         height: 650px;
         z-index: 0; }
@@ -9475,7 +9475,8 @@ textarea.form-control {
   display: block;
   position: relative;
   background: rgba(255, 255, 255, 0.1);
-  color: rgba(0, 0, 0, 0.8); }
+  color: rgba(0, 0, 0, 0.8);
+  overflow: scroll; }
   .testimony-wrap .user-img {
     width: 100px;
     height: 100px;
@@ -10168,7 +10169,3 @@ h1 {
   background-color: #82ae46;
    color: white;
 }
-
-/*.discription {
-  margin: auto !important;
-}*/
