@@ -100,10 +100,10 @@
 					items: 1
 				},
 				600:{
-					items: 3
+					items: 3 //change to 3 for normal
 				},
 				1000:{
-					items: 3
+					items: 3 //change to 3 for normal
 				}
 			}
 		});
@@ -131,7 +131,7 @@
 	});
 
 
-	$('#dropdown04').on('show.bs.dropdown', function () {
+	$('.dropdown04').on('show.bs.dropdown', function () {
 	  console.log('show');
 	});
 
@@ -345,3 +345,81 @@ setInterval(function() { makeTimer(); }, 1000);
 
 })(jQuery);
 
+var changeCounter = 0;
+var divisions = $('.damya-partner');
+var x = true;
+var changerCount;
+
+function changePartner () {
+
+	if (changeCounter >= $('.damya-partner').length) {
+        changeCounter = 0;
+      }
+
+	if (x) {
+      changerCount = changeCounter + 1;
+    }
+      if (changerCount >= $('.damya-partner').length) {
+        changerCount = 0;
+      }
+
+      $(divisions[changerCount]).removeClass("hidden-partners");
+
+      $(divisions[changeCounter]).addClass("hidden-partners");
+
+      changeCounter++;
+
+      x = true;
+
+}
+
+$(".right-arrows").on("click", changePartner);
+
+$(".left-arrows").on("click", function() {
+
+	x = false;
+
+	changerCount = changeCounter - 1;
+
+	if (changerCount == -1) {
+      	changerCount = $('.damya-partner').length - 1;
+      }
+
+	changePartner();
+
+	changeCounter = changeCounter - 2;
+
+	if (changeCounter == -1) {
+		changeCounter = $('.damya-partner').length - 1;
+	}
+
+} );
+
+setInterval(changePartner, 4000);
+
+$('.article-div').on('click', function() {
+
+	$(this).toggleClass('col-lg-articles').toggleClass('col-lg-12');
+
+	$(this).find('.article').toggleClass('hidden-article');
+
+	return false;
+
+});
+
+$('.col-lg-cards ul li').hover(function(){
+	
+	$(this).parent().parent().children('.img-fluid').attr("src", $(this).find('img').attr("src"));
+})
+
+$('.Price-Show').hover(function() {
+
+	// $(this).find('.price-variant').addClass('hidden-article');
+	$(this).find('.bottom-area').removeClass('hidden-button');
+
+}, function() {
+
+	$(this).find('.bottom-area').addClass('hidden-button');
+	// $(this).find('.price-variant').removeClass('hidden-article');
+
+})
