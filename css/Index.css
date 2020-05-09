@@ -1,0 +1,16 @@
+#img1 {
+  background-image: url('../image/Main/Jelly_Sweets.jpg');
+}
+
+#img2 {
+  background-image: url('../image/Main/Fruit_Jelly_2.jpg');
+}
+
+@media (max-width: 600px) {
+      #img1 {
+          background-image: url('../image/Main/Jelly_Sweets_2.jpg');
+      }
+      #img2 {
+          background-image: url('../image/Main/Fruit_Jelly_4.jpg');
+      }
+}
