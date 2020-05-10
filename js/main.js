@@ -414,12 +414,10 @@ $('.col-lg-cards ul li').hover(function(){
 
 $('.Price-Show').hover(function() {
 
-	// $(this).find('.price-variant').addClass('hidden-article');
 	$(this).find('.bottom-area').removeClass('hidden-button');
 
 }, function() {
 
 	$(this).find('.bottom-area').addClass('hidden-button');
-	// $(this).find('.price-variant').removeClass('hidden-article');
 
 })
