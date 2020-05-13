@@ -51,11 +51,16 @@
 
 	// loader
 	var loader = function() {
-		setTimeout(function() { 
-			if($('#ftco-loader').length > 0) {
-				$('#ftco-loader').removeClass('show');
-			}
-		}, 1000);
+			var loading = setInterval(function() { 
+				var state = document.readyState;
+				if (state == 'complete') {
+					$('#ftco-loader').removeClass('show');
+					 clearInterval(loading);
+				}
+				else {
+					console.log('loop');
+				}
+			}, 1000);
 	};
 	loader();
 
