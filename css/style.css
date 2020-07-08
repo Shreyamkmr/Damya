@@ -42,28 +42,28 @@
   background-image: url('../image/Main/Fruit_Jelly_2.jpg');
 }
 #imgbr1 {
-  background-image: url('../image/Birthday-Return-Gifts/Cover-Photo/Birthday.jpg');
+  background-image: url('../image/birthday-return-gifts/Cover-Photo/Birthday.jpg');
 }
 #imgbr2 {
-  background-image: url('../image/Birthday-Return-Gifts/Cover-Photo/Birthday2.jpg');
+  background-image: url('../image/birthday-return-gifts/Cover-Photo/Birthday2.jpg');
 }
 #imgbr3 {
-  background-image: url('../image/Birthday-Return-Gifts/Cover-Photo/Birthday-Return-Gifts-3.jpg');
+  background-image: url('../image/birthday-return-gifts/Cover-Photo/Birthday-Return-Gifts-3.jpg');
 }
 #imgbr4 {
-  background-image: url('../image/Birthday-Return-Gifts/Cover-Photo/Birthday-Return-Gifts-4.jpg');
+  background-image: url('../image/birthday-return-gifts/Cover-Photo/Birthday-Return-Gifts-4.jpg');
 }
 #imgbi1 {
-  background-image: url('../image/Birthday-Invitation/Cover-Photo/Birthday-Invitation.jpg');
+  background-image: url('../image/birthday-invitation/Cover-Photo/Birthday-Invitation.jpg');
 }
 #imgbi2 {
-  background-image: url('../image/Birthday-Invitation/Cover-Photo/Birthday-Invitation-2.jpg');
+  background-image: url('../image/birthday-invitation/Cover-Photo/Birthday-Invitation-2.jpg');
 }
 #imgbi3 {
-  background-image: url('../image/Birthday-Invitation/Cover-Photo/Birthday-Invitation-3.jpg');
+  background-image: url('../image/birthday-invitation/Cover-Photo/Birthday-Invitation-3.jpg');
 }
 #imgbi4 {
-  background-image: url('../image/Birthday-Invitation/Cover-Photo/Birthday-Invitation-4.jpg');
+  background-image: url('../image/birthday-invitation/Cover-Photo/Birthday-Invitation-4.jpg');
 }
 #imgwi1 {
   background-image: url('../image/Wedding-Invitation/Cover-Photo/Wedding-Invitation.jpg');
@@ -80,28 +80,28 @@
           background-image: url('../image/Main/Fruit_Jelly_4.jpg');
       }
       #imgbr1 {
-          background-image: url('../image/Birthday-Return-Gifts/Cover-Photo/Birthday-mobile.jpg');
+          background-image: url('../image/birthday-return-gifts/Cover-Photo/Birthday-mobile.jpg');
       }
       #imgbr2 {
-          background-image: url('../image/Birthday-Return-Gifts/Cover-Photo/Birthday-mobile1.jpg');
+          background-image: url('../image/birthday-return-gifts/Cover-Photo/Birthday-mobile1.jpg');
       }
       #imgbr3 {
-          background-image: url('../image/Birthday-Return-Gifts/Cover-Photo/Birthday-Return-Gifts-Mobile-3.jpg');
+          background-image: url('../image/birthday-return-gifts/Cover-Photo/Birthday-Return-Gifts-Mobile-3.jpg');
       }
       #imgbr4 {
-          background-image: url('../image/Birthday-Return-Gifts/Cover-Photo/Birthday-Return-Gifts-Mobile-4.jpg');
+          background-image: url('../image/birthday-return-gifts/Cover-Photo/Birthday-Return-Gifts-Mobile-4.jpg');
       }
       #imgbi1 {
-          background-image: url('../image/Birthday-Invitation/Cover-Photo/Birthday-Invitation-Mobile.jpg');
+          background-image: url('../image/birthday-invitation/Cover-Photo/Birthday-Invitation-Mobile.jpg');
       }
       #imgbi2 {
-          background-image: url('../image/Birthday-Invitation/Cover-Photo/Birthday-Invitation-Mobile-2.jpg');
+          background-image: url('../image/birthday-invitation/Cover-Photo/Birthday-Invitation-Mobile-2.jpg');
       }
       #imgbi3 {
-          background-image: url('../image/Birthday-Invitation/Cover-Photo/Birthday-Invitation-Mobile-3.jpg');
+          background-image: url('../image/birthday-invitation/Cover-Photo/Birthday-Invitation-Mobile-3.jpg');
       }
       #imgbi4 {
-          background-image: url('../image/Birthday-Invitation/Cover-Photo/Birthday-Invitation-Mobile-4.jpg');
+          background-image: url('../image/birthday-invitation/Cover-Photo/Birthday-Invitation-Mobile-4.jpg');
       }
       #imgwi1 {
           background-image: url('../image/Wedding-Invitation/Cover-Photo/Wedding-Invitation-Mobile.jpg');
@@ -2408,10 +2408,10 @@ h1, h2, h3, h4, h5,
   background-image: url('../images/invitation2.jpg');
 }
 #img10 {
-  background-image: url('../images/Birthday-Invitation/Cover-Photo/Birthday-Invitation-3.jpg');
+  background-image: url('../images/birthday-invitation/Cover-Photo/Birthday-Invitation-3.jpg');
 }
 #img11 {
-  background-image: url('../images/Birthday-Invitation/Cover-Photo/Birthday-Invitation-4.jpg');
+  background-image: url('../images/birthday-invitation/Cover-Photo/Birthday-Invitation-4.jpg');
 }
 
 /*changes will reflect in mobile only*/
@@ -2419,13 +2419,13 @@ h1, h2, h3, h4, h5,
       
       
       #img9 {
-          background-image: url('../images/Birthday-Invitation/Cover-Photo/Birthday-Invitation-Mobile-2.jpg');
+          background-image: url('../images/birthday-invitation/Cover-Photo/Birthday-Invitation-Mobile-2.jpg');
       }
       #img10 {
-          background-image: url('../images/Birthday-Invitation/Cover-Photo/Birthday-Invitation-Mobile-3.jpg');
+          background-image: url('../images/birthday-invitation/Cover-Photo/Birthday-Invitation-Mobile-3.jpg');
       }
       #img11 {
-          background-image: url('../images/Birthday-Invitation/Cover-Photo/Birthday-Invitation-Mobile-4.jpg');
+          background-image: url('../images/birthday-invitation/Cover-Photo/Birthday-Invitation-Mobile-4.jpg');
       }
       
 }
