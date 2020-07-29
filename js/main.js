@@ -421,3 +421,7 @@ $('.Price-Show').hover(function() {
 	$(this).find('.bottom-area').addClass('hidden-button');
 
 })
+
+$(document).ready(function() {
+  $.stickysidebarscroll("#last-div-sidebar",{offset: {top: 100, bottom: 1000}});
+});
