@@ -2519,7 +2519,10 @@ h1 {
 
 @media (max-width: 768px) {
     .column1 {
-      width: 100%; } }
+      width: 100%; }
+    .blog-heading {
+    font-size: 30px !important;
+    }  }
 
 /* Clear floats after rows */
 .row1:after {
@@ -3308,7 +3311,8 @@ font-weight: bold;
     display: -ms-flexbox !important;
     display: flex !important; }
   .pl-md-4 {
-    padding-left: 1.5rem !important; } }
+    padding-left: 1.5rem !important; }
+  }
 
 .block-20 {
   overflow: hidden;
@@ -3363,3 +3367,4 @@ font-weight: bold;
   font-size: 11px; }
   .tagcloud a:hover {
     border: 1px solid #000; }
+
