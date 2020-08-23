@@ -1631,7 +1631,7 @@ h1, h2, h3, h4, h5,
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  background: #82ae46;
+  background: #40332b;
   cursor: pointer;
   position: relative;
   text-align: center;
@@ -1832,15 +1832,15 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #82ae46;
-    border: 1px solid #82ae46;
+    background: #40332b;
+    border: 1px solid #40332b;
     color: #fff;
     margin: 0 auto;
     display: block; }
     .btn.btn-primary:hover {
-      border: 1px solid #82ae46;
+      border: 1px solid #40332b;
       background: transparent;
-      color: #82ae46; }
+      color: #40332b; }
 
 .product {
   display: block;
@@ -3368,3 +3368,9 @@ font-weight: bold;
   .tagcloud a:hover {
     border: 1px solid #000; }
 
+/*@media (max-width: 768px) {
+.sidebar, .sidebar-box , .tagcloud, .sidebar > img {
+  visibility: hidden !important;
+  height: 0 !important;
+}
+}*/
