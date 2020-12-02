@@ -2,7 +2,7 @@ $( document ).ready(function( $ ) {
 	// variable to hold request
 	var request;
 	// bind to the submit event of our form
-	$("#enquiry-form-customized-gifts").submit(function(event){
+	$("#production").submit(function(event){
 		// abort any pending request
 		if (request) {
 			request.abort();
@@ -22,7 +22,7 @@ $( document ).ready(function( $ ) {
 	
 		// fire off the request to /form.php
 		request = $.ajax({
-			url: "https://script.google.com/macros/s/AKfycbws9o3pzwA7LSYBBhn3KbQI-zO2fuANrKD8Zp8e5VhgtuKDBuA/exec",
+			url: "https://script.google.com/macros/s/AKfycbyjt3DI3X98epYo6tNqkMb42eT_aCnWaXowoa3g5eNPCRQz4X88/exec",
 			type: "get",
 			data: serializedData
 		});
@@ -32,7 +32,7 @@ $( document ).ready(function( $ ) {
 			// log a message to the console
 			$('#result').html('<a href="https://docs.google.com/spreadsheets/d/1wB58j0ahcBC-LW4mlDx20aCMhPS6zyMPGJWzBTVEmF4/edit?usp=sharing" target="_blank">Success - see Google Sheet</a>');
 			console.log("Hooray, it worked!");
-			alert("Submitted! We will contact you soon. For urgent queries call +91 9304555001");
+			alert("Submitted!");
 		});
 	
 		// callback handler that will be called on failure

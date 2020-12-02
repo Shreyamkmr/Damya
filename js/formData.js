@@ -10,7 +10,7 @@ $( document ).ready(function( $ ) {
 		// setup some local variables
 		var $form = $(this);
 		// let's select and cache all the fields
-		var $inputs = $form.find("input, select, button, textarea,checkbox");
+		var $inputs = $form.find("input, select, button, textarea, checkbox");
 		// serialize the data in the form
 		var serializedData = $form.serialize();
 	
@@ -22,7 +22,7 @@ $( document ).ready(function( $ ) {
 	
 		// fire off the request to /form.php
 		request = $.ajax({
-			url: "https://script.google.com/macros/s/AKfycbw0UKUe_ly6GDHuUiSRuTED6sUHBhBnMytA_-0va4lxRDW4TjgU/exec",
+			url: "https://script.google.com/macros/s/AKfycbxcY6k9qgr27OGRh2E2Tpkr9FJbyWvHiXSvpI6iXy01eYctMigt/exec",
 			type: "get",
 			data: serializedData
 		});
